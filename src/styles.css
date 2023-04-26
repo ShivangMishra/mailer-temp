@@ -1,0 +1,126 @@
+*{box-sizing: border-box}
+
+.container-fluid  {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    
+    overflow-x:hidden;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+    object-fit: fill;
+    display: flex;
+    justify-content: center;
+}
+.image-link-container{
+    position: relative;
+    /* background-color: magenta; */
+
+}
+
+.table-responsive{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    caption-side: bottom;
+    border-collapse: collapse;
+}
+.image-fluid{
+    overflow-x: hidden;
+    overflow-y: hidden;
+   
+    object-fit: fill;
+     height : 500px;
+    width:  100%;
+    /* background-color: aqua; */
+
+
+
+}
+.link{
+    width: 100%;
+    position: absolute;
+z-index: 1;
+
+
+}
+.employEngagement {
+    top : 10px;
+
+}
+.eventAward{
+    top : 20px;
+}
+.projectUpdates{
+    top: 30px;
+}
+.safetyWeek{
+    top : 40px;
+}
+.straigth{
+    top:60px;
+}
+.welcome
+{top:70px;}
+.updatesDiv{
+    position: absolute;
+    /* background-color:  red; */
+    height: 20px;
+    width: 88px;
+    display: flex;
+    top : 318px;
+    left: 835px;
+}
+.safetyDiv{
+    position: absolute;
+    /* background-color:  green; */
+    height: 20px;
+    width: 88px;
+    display: flex;
+    top : 310px;
+    left: 1090px;
+}
+.eventDiv{
+    position: absolute;
+    /* background-color:  yellow; */
+    height: 20px;
+    width: 88px;
+    display: flex;
+    top : 300px;
+    left: 1344px;
+
+}
+.straigthDiv{
+    position: absolute;
+    /* background-color:  blueviolet; */
+    height: 27px;
+    width: 123px;
+    display: flex;
+    top : 775px;
+    left: 37px;
+}
+
+.welcomeDiv{
+    position: absolute;
+    /* background-color:  pink; */
+    height: 31px;
+    width: 130px;
+    display: flex;
+    top : 513px;
+    left: 1093px;
+
+}
+.employDiv{
+    position: absolute;
+    /* background-color:  skyblue; */
+    height: 33px;
+    width: 130px;
+    display: flex;
+    top : 805px;
+    left: 795px;
+
+}
+
+
